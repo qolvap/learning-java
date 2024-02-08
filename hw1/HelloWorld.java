@@ -1,9 +1,9 @@
 // HelloWorld is the name of the class
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.print("Hello, World!");
-        System.out.print(12);
-        System.out.print("\n\tjava" + 12);
+        System.out.println("Hello, World!");
+        System.out.println(12);
+        System.out.println("\n\tjava" + 12);
     }
     /* HelloWorld public class has one method which is accesable staticly(it doesnt require creating an object)
     * main is the name of the method, it has command line parametres.
