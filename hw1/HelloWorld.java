@@ -2,6 +2,8 @@
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.print("Hello, World!");
+        System.out.print(12);
+        System.out.print("\n\tjava" + 12);
     }
     /* HelloWorld public class has one method which is accesable staticly(it doesnt require creating an object)
     * main is the name of the method, it has command line parametres.
@@ -17,5 +19,7 @@ public class HelloWorld {
     *javac HelloWorld.java
     *java HelloWorld
 
-    *Hello, World!%                                
+    *Hello, World!
+    *12
+    *    java 12
  */
